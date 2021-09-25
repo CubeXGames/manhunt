@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.cubex.manhunt.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  	"ServerPlayerInteractionManagerMixin",
+  	"CompassMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
